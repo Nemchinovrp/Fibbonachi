@@ -10,18 +10,17 @@ public class Fibbonachi {
 		}
 
 	}
-	public void input(){
-		for(int i=0; i<fib.length; i++){
-			int elem=0;
-			elem=fib[i] ;
-			System.out.println(elem);
+	public void output(){
+		for(int i:fib){
+			
+			System.out.println(i);
 		}
 	}
 	
 	public static void main(String[] args) {
 		Fibbonachi object = new Fibbonachi();
 		object.compute();
-		object.input();
+		object.output();
 	}
 
 }
