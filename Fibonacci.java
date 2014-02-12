@@ -1,4 +1,4 @@
-public class Fibbonachi {
+public class Fibonacci {
 
 	int[] fib = new int[20];
 	
